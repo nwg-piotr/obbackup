@@ -1,11 +1,13 @@
 [Desktop Entry]
 Encoding=UTF-8
-Type=Application
-Name=obbackup
+Name=Obbackup
+GenericName=Backup/restore config files
 Keywords=backup;restore;config;configuration;
 Icon=/usr/share/obbackup/obbackup.svg
 Comment=Backup and restore Openbox config files
+Type=Application
+StartupNotify=true
 Exec=obbackup
 Terminal=false
 NotShowIn=GNOME;KDE;XFCE;MATE;
-Categories=GTK;Settings;Tools;
+Categories=GTK;System;

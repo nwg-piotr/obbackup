@@ -1,7 +1,7 @@
 # Maintainer: Piotr Miller <nwg.piotr@gmail.com>
 pkgname=('obbackup')
 pkgver=0.0.1
-pkgrel=1
+pkgrel=2
 pkgdesc="Graphical tool to backup/restore Openbox config in few clicks"
 arch=('i686' 'x86_64')
 url="https://github.com/nwg-piotr/obbackup"
