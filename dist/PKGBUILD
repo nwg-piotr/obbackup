@@ -12,9 +12,9 @@ source=("https://github.com/nwg-piotr/obbackup/raw/master/dist/obbackup-0.0.1.ta
 "https://github.com/nwg-piotr/obbackup/raw/master/dist/obbackup.desktop"
 "https://github.com/nwg-piotr/obbackup/raw/master/dist/obbackup.svg")
 
-md5sums=('4f52ba8591cd7fab5dc0086011d7e442'
+md5sums=('5f2d26ccc60e3c3d778047e591e1c917'
          'fd20036d6f0afa0e89094a0377ccb61c'
-         '2a9ba403c6ac2b5b2414b4ad81c7dcb7'
+         '0bfc98412f0bb94340cb6970ba02044c'
          '9edddc2b2950a455b9731f1a6bda13a9')
 
 package() {
