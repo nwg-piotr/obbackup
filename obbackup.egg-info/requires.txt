@@ -1,1 +1,3 @@
 python
+gobject-introspection
+gtk3
