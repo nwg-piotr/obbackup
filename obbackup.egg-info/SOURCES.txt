@@ -9,8 +9,5 @@ obbackup.egg-info/SOURCES.txt
 obbackup.egg-info/dependency_links.txt
 obbackup.egg-info/requires.txt
 obbackup.egg-info/top_level.txt
-obbackup/glade/filechooser.glade~
-obbackup/glade/main.glade~
 obbackup/glade/main_window.glade
-obbackup/glade/main_window.glade~
 obbackup/glade/obbackup.svg
