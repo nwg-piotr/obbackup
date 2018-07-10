@@ -2,7 +2,7 @@ MANIFEST.in
 README.txt
 setup.py
 obbackup/__init__.py
-obbackup/main.py
+obbackup/obbackup.py
 obbackup/values.py
 obbackup.egg-info/PKG-INFO
 obbackup.egg-info/SOURCES.txt
