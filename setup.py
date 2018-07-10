@@ -11,7 +11,7 @@ setup(
     include_package_data=True,
 
     # Details
-    url="https://bitbucket.org/nwg-piotr/obbackup",
+    url="https://github.com/nwg-piotr/obbackup",
 
     license='GPL3',
     description="Arcade-puzzle game",
