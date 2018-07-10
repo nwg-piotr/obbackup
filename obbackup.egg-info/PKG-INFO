@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: obbackup
+Version: 0.0.1
+Summary: Arcade-puzzle game
+Home-page: http://nwg.pl/cheese
+Author: Piotr Miller
+Author-email: nwg.piotr@gmail.com
+License: GPL3
+Description: Simple tool to backup / restore Openbox config files with few clicks.
+Platform: any

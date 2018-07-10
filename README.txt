@@ -1,0 +1,1 @@
+Simple tool to backup / restore Openbox config files with few clicks.
