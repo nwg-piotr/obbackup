@@ -9,8 +9,8 @@ license=('GPL3')
 depends=('python3')
 source=("https://github.com/nwg-piotr/obbackup/raw/master/dist/obbackup-0.0.1.tar.gz"
 "https://github.com/nwg-piotr/obbackup/blob/master/dist/obbackup"
-"http://nwg.pl/mice/download/one-more-cheese.desktop"
-"http://nwg.pl/mice/download/one-more-cheese.png")
+"https://github.com/nwg-piotr/obbackup/blob/master/dist/obbackup.desktop"
+"https://github.com/nwg-piotr/obbackup/blob/master/dist/obbackup.desktop")
 
 md5sums=('062737633adadb5c1f22e53603f12730'
          'af54e54383a7bdb5fa13ffa1c023f831'
@@ -18,12 +18,12 @@ md5sums=('062737633adadb5c1f22e53603f12730'
          '15b45413c215260baf7c462cbbdde183')
 
 package() {
-  install -D -m 755 one-more-cheese \
- 	 "$pkgdir"/usr/bin/one-more-cheese
- 	install -D -m 755 one-more-cheese.desktop \
- 	 "$pkgdir"/usr/share/applications/one-more-cheese.desktop
- 	install -D -m 644 one-more-cheese.png \
- 	 "$pkgdir"/usr/share/one-more-cheese/one-more-cheese.png
+  install -D -m 755 obbackup \
+ 	 "$pkgdir"/usr/bin/obbackup
+ 	install -D -m 755 obbackup.desktop \
+ 	 "$pkgdir"/usr/share/applications/obbackup.desktop
+ 	install -D -m 644 obbackup.svg \
+ 	 "$pkgdir"/usr/share/obbackup/obbackup.svg.png
   cd "$srcdir/$pkgname-$pkgver"
   python setup.py install --root="$pkgdir/" --optimize=1
 }
