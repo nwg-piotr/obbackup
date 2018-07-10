@@ -6,13 +6,13 @@ pkgdesc="Graphical tool to backup/restore Openbox config in few clicks"
 arch=('i686' 'x86_64')
 url="https://github.com/nwg-piotr/obbackup"
 license=('GPL3')
-depends=('python3' 'gobject-introspection' 'gtk3')
+depends=('python3')
 source=("https://github.com/nwg-piotr/obbackup/raw/master/dist/obbackup-0.0.1.tar.gz"
 "https://github.com/nwg-piotr/obbackup/raw/master/dist/obbackup"
 "https://github.com/nwg-piotr/obbackup/raw/master/dist/obbackup.desktop"
 "https://github.com/nwg-piotr/obbackup/raw/master/dist/obbackup.svg")
 
-md5sums=('5f2d26ccc60e3c3d778047e591e1c917'
+md5sums=('4564b51e571ba029259b0663ec14f6b5'
          'fd20036d6f0afa0e89094a0377ccb61c'
          '0bfc98412f0bb94340cb6970ba02044c'
          '9edddc2b2950a455b9731f1a6bda13a9')
